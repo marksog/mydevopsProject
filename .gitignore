@@ -163,3 +163,4 @@ cython_debug/
 *.tfstate
 *.tfstate.*
 *.pem
+.DS_Store
