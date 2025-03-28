@@ -215,7 +215,7 @@ resource "aws_lb_target_group" "public_alb_target_A" {
 
 # creating 4 servers behind this LB
 resource "aws_instance" "public_server_A" {
-    ami = "ami-0c55b159cbfafe1f0"
+    ami = "ami-04aa00acb1165b32a"
     count = 4
     instance_type = "t2.micro"
     subnet_id = aws_subnet.public_subnet_A.id
@@ -273,7 +273,7 @@ resource "aws_lb_target_group" "public_alb_target_B" {
 
 # creating 4 servers behind this LB
 resource "aws_instance" "public_server_B" {
-    ami = "ami-0c55b159cbfafe1f0"
+    ami = "ami-04aa00acb1165b32a"
     count = 4
     instance_type = "t2.micro"
     subnet_id = aws_subnet.public_subnet_B.id
