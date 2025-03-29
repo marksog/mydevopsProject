@@ -33,10 +33,14 @@ also write a flowchart.py for the procedure.
 
 
 # Step 1
-Create repo for this project.
+Create repo for this project. and write your code
 
 
 # Step 2
 In the public subnet (could be outside or in default vpc), create an EC2 instance that will be used for jenkins
 ssh to the instance and install jenkins. (its in a default vpc, or create a simple vpc for it.)
+
+# Step 3
+write your jenkins file. 
+you will have to give the ec2 instance permission to use s3 (since we are using it for terrafrom backup), ec2 access, iam create role, dynamo access. 
 
